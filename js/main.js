@@ -1,11 +1,9 @@
-let n = 100;
+let number = 100;
 function check(n) {
-    if (n > 200) {
+    if (n > 200 || n < 100) {
         console.log("Liczba nie znajduje się w przedziale")
-    } if (n < 100) {
-        console.log("Liczba nie znajduje się w przedziale")
-    } else {
+    }  else {
         console.log("Liczba znajduje się w przedziale")
     }
 }
-console.log(check(100))
+check(number)
